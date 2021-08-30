@@ -14,7 +14,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git dnsfilter https://gitee.com/zhq1_admin/luci-app-dnsfilter' >>feeds.conf.default
 #添加三方插件dnsfilter
 git clone https://gitee.com/zhq1_admin/luci-app-dnsfilter.git /feeds/luci/applications/luci-app-dnsfilter
 ./scripts/feeds update luci
