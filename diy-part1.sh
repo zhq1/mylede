@@ -15,5 +15,12 @@
 
 # Add a feed source
 echo 'src-git dnsfilter https://gitee.com/zhq1_admin/luci-app-dnsfilter' >>feeds.conf.default
+#添加三方插件dnsfilter
+git clone https://gitee.com/zhq1_admin/luci-app-dnsfilter.git /feeds/luci/applications/luci-app-dnsfilter
+./scripts/feeds update luci
+./scripts/feeds install -a -p luci
+./scripts/feeds update packages
+./scripts/feeds install -a -p packages
+
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
