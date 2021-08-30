@@ -15,7 +15,7 @@
 
 # Add a feed source
 #添加三方插件dnsfilter
-git clone https://gitee.com/zhq1_admin/luci-app-dnsfilter.git /feeds/luci/applications/luci-app-dnsfilter
+git clone https://github.com/kiddin9/luci-app-dnsfilter.git /feeds/luci/applications/luci-app-dnsfilter
 ./scripts/feeds update luci
 ./scripts/feeds install -a -p luci
 ./scripts/feeds update packages
