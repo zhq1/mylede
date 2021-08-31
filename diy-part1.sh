@@ -10,9 +10,6 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-#添加三方插件dnsfilter
-git clone https://github.com/kiddin9/luci-app-dnsfilter.git /feeds/luci/applications/luci-app-dnsfilter
-
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
