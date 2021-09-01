@@ -10,8 +10,8 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-#添加三方插件dnsfilter
-git clone https://github.com/kiddin9/luci-app-dnsfilter.git /feeds/luci/applications/luci-app-dnsfilter
+#添加三方插件adblock-plus
+git clone https://github.com/small-5/luci-app-adblock-plus.git /feeds/luci/applications/luci-app-adblock-plus
 
 git clone https://github.com/zhq1/luci-app-easymesh.git /home/tang/immortalwrt/feeds/luci/applications/luci-app-easymesh
 
